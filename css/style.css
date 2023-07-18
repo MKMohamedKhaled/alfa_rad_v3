@@ -204,9 +204,6 @@ body {
   .nav-container {
     flex-direction: column;
   }
-  .nav-list {
-      
-  }
   .logo {
     width: 75px;
     height: 75px;
@@ -284,7 +281,7 @@ body {
   border-radius: 3px;
   padding: 3rem;
   padding-left: 9rem;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   transform: skewX(-12deg);
   text-align: start;
   color: var(--description-color);
@@ -298,7 +295,7 @@ body {
     transform: skewX(0);
     padding: 1rem;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
   .section-title {
     font-size: 3rem;
@@ -313,7 +310,7 @@ body {
     transform: skewX(0);
     padding: 1rem;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
   .section-title {
     font-size: 2rem;
@@ -350,7 +347,6 @@ body {
 }
 .member-description {
   color: var(--description-color);
-  font-size: 1.3rem;
 }
 .gender-image {
   width: 40px;
@@ -383,14 +379,13 @@ body {
 
 .service-description {
   color: var(--description-color);
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 .more-services {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   transition: all 0.5s;
 }
 .more-services:hover {
-  
   transform: scale(1.2);
   overflow-x: hidden;
 }
